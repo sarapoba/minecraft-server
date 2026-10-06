@@ -1,0 +1,25 @@
+# 빌드 산출물
+build/
+out/
+*.class
+*.jar
+
+# 로컬 빌드 보조 (절대 경로 포함)
+cp.args
+
+# 백업·임시
+*.bak
+*.tmp
+*.log
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# 빌드 로그
+javac.*.args
